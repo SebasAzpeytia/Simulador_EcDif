@@ -1,0 +1,38 @@
+[build-system]
+requires = ["scikit-build-core>=0.8", "pybind11>=2.12"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "rc-simulator"
+version = "1.0.0"
+description = "Simulador interactivo de alto rendimiento para circuitos RC en serie excitados por fuente sinusoidal (Core C++20 + PySide6/PyQtGraph)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Ingeniería de Computación Científica" }
+]
+dependencies = [
+    "numpy>=1.26.0",
+    "PySide6>=6.6.0",
+    "pyqtgraph>=0.13.7",
+    "PyOpenGL>=3.1.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+rc-simulator = "rc_simulator.main:main"
+
+[tool.scikit-build]
+wheel.packages = ["src/rc_simulator"]
+editable.mode = "inplace"
+cmake.version = ">=3.20"
+cmake.build-type = "Release"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
