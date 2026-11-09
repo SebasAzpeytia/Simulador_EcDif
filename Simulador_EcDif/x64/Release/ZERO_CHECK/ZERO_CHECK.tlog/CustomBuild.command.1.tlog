@@ -1,0 +1,10 @@
+^C:\SIMULADOR_ECDIF\SIMULADOR_ECDIF\CMAKEFILES\EC9EF93A2B57C1B7A34103B1659E3CDA\GENERATE.STAMP.RULE
+setlocal
+C:\Users\Erik\AppData\Local\Temp\pip-build-env-xhib0y8b\normal\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Simulador_EcDif/Simulador_EcDif -BC:/Simulador_EcDif/Simulador_EcDif --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Simulador_EcDif/Simulador_EcDif/rc_simulator_core.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

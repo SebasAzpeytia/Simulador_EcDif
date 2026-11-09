@@ -455,6 +455,7 @@ class CircuitAnimationPanel(QFrame):
     """Panel superior que integra el circuito animado y la barra de reproducción temporal."""
 
     timeIndexChanged = Signal(int)
+    modeChanged = Signal(str)
 
     def __init__(self, parent: QWidget | None = None) -> None:
         super().__init__(parent)
@@ -480,6 +481,24 @@ class CircuitAnimationPanel(QFrame):
         title.setObjectName("SectionTitle")
         top_bar.addWidget(title)
         top_bar.addStretch(1)
+#   -----------------------------------------------------------------------
+#    BOTONES: Sencillo / Avanzado ---
+
+        self.btn_simple = QPushButton("Sencillo")
+        self.btn_simple.setObjectName("SpeedButton")
+        self.btn_simple.setCursor(Qt.CursorShape.PointingHandCursor)
+        self.btn_simple.clicked.connect(lambda: self._set_mode("simple"))
+
+        self.btn_advanced = QPushButton("Avanzado")
+        self.btn_advanced.setObjectName("SpeedButton")
+        self.btn_advanced.setProperty("active", "true")
+        self.btn_advanced.setCursor(Qt.CursorShape.PointingHandCursor)
+        self.btn_advanced.clicked.connect(lambda: self._set_mode("avanzado"))
+
+        top_bar.addWidget(self.btn_simple)
+        top_bar.addWidget(self.btn_advanced)
+        top_bar.addSpacing(20) # Espacio separador
+#----------------------------------------------------------------------
 
         self.btn_play = QPushButton("Pausar Animación")
         self.btn_play.setObjectName("PlaybackButton")
@@ -540,6 +559,21 @@ class CircuitAnimationPanel(QFrame):
         self.set_speed(1.0)
         self._timer.start()
 
+#--------------------------------------------------------
+# CAMBIAR EL COLOR DE LOS BOTONES Y EMITIR LA SEÑAL
+    def _set_mode(self, mode: str) -> None:
+        is_adv = (mode == "avanzado")
+        self.btn_advanced.setProperty("active", "true" if is_adv else "false")
+        self.btn_simple.setProperty("active", "false" if is_adv else "true")
+        
+        self.btn_advanced.style().unpolish(self.btn_advanced)
+        self.btn_advanced.style().polish(self.btn_advanced)
+        self.btn_simple.style().unpolish(self.btn_simple)
+        self.btn_simple.style().polish(self.btn_simple)
+        
+        self.modeChanged.emit(mode)
+
+#-------------------------------------------------------
     def set_speed(self, speed: float) -> None:
         self._speed_mult = speed
         for spd, btn in self._speed_buttons.items():

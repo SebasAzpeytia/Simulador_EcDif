@@ -4,294 +4,1775 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Linux - 7.0.0-42-generic - x86_64
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:/Simulador_EcDif/.venv/Lib/site-packages"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages"
+      ENV{PATH}:
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\overlay\\Scripts"
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Scripts"
+        - "C:\\Simulador_EcDif\\.venv\\Scripts"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\Ruby32-x64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Erik\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\Erik\\Documents\\flutter\\bin\\"
+        - "C:\\Users\\Erik\\.dotnet\\tools"
+        - "C:\\Users\\Erik\\AppData\\Local\\Python\\bin"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\Erik\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\Erik\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\Erik\\AppData\\Local\\Temp\\tmp9y8r6jq0\\wheel\\platlib"
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/c++ 
+      Compiler:  
       Build flags: 
       Id flags:  
       
       The output was:
       0
+      Versi├│n de MSBuild 17.14.18+a338add32 para .NET Framework
+      Compilaci├│n iniciada a las 07/11/2026 04:03:59 p. m..
+      
+      Proyecto "C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.03
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
       
-      The CXX compiler identification is GNU, found in:
-        /home/sebas-azpeytia/Desktop/Simulador_EcDif/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
+      The CXX compiler identification is MSVC, found in:
+        C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/4.4.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/"
+      - "C:/Simulador_EcDif/.venv/Scripts/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "D:/Ruby32-x64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Erik/AppData/Roaming/npm/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/Erik/Documents/flutter/bin/"
+      - "C:/Users/Erik/.dotnet/tools/"
+      - "C:/Users/Erik/AppData/Local/Python/bin/"
+      - "D:/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:/Simulador_EcDif/.venv/Lib/site-packages"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages"
+      ENV{PATH}:
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\overlay\\Scripts"
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Scripts"
+        - "C:\\Simulador_EcDif\\.venv\\Scripts"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\Ruby32-x64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Erik\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\Erik\\Documents\\flutter\\bin\\"
+        - "C:\\Users\\Erik\\.dotnet\\tools"
+        - "C:\\Users\\Erik\\AppData\\Local\\Python\\bin"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\Erik\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\Erik\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\Erik\\AppData\\Local\\Temp\\tmp9y8r6jq0\\wheel\\platlib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/"
+      - "C:/Simulador_EcDif/.venv/Scripts/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "D:/Ruby32-x64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Erik/AppData/Roaming/npm/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/Erik/Documents/flutter/bin/"
+      - "C:/Users/Erik/.dotnet/tools/"
+      - "C:/Users/Erik/AppData/Local/Python/bin/"
+      - "D:/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/lld-link.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/lld-link.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/lld-link"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/lld-link.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/lld-link.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/lld-link"
+      - "C:/Simulador_EcDif/.venv/Scripts/lld-link.com"
+      - "C:/Simulador_EcDif/.venv/Scripts/lld-link.exe"
+      - "C:/Simulador_EcDif/.venv/Scripts/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "D:/Ruby32-x64/bin/lld-link.com"
+      - "D:/Ruby32-x64/bin/lld-link.exe"
+      - "D:/Ruby32-x64/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "D:/Program Files/nodejs/lld-link.com"
+      - "D:/Program Files/nodejs/lld-link.exe"
+      - "D:/Program Files/nodejs/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Erik/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Erik/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Erik/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/lld-link.com"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/lld-link.exe"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/lld-link"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/lld-link.com"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/lld-link.exe"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/lld-link"
+      - "C:/Users/Erik/Documents/flutter/bin/lld-link.com"
+      - "C:/Users/Erik/Documents/flutter/bin/lld-link.exe"
+      - "C:/Users/Erik/Documents/flutter/bin/lld-link"
+      - "C:/Users/Erik/.dotnet/tools/lld-link.com"
+      - "C:/Users/Erik/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Erik/.dotnet/tools/lld-link"
+      - "C:/Users/Erik/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/Erik/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/Erik/AppData/Local/Python/bin/lld-link"
+      - "D:/Microsoft VS Code/bin/copilot-shim/lld-link.com"
+      - "D:/Microsoft VS Code/bin/copilot-shim/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/copilot-shim/lld-link"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:/Simulador_EcDif/.venv/Lib/site-packages"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages"
+      ENV{PATH}:
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\overlay\\Scripts"
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Scripts"
+        - "C:\\Simulador_EcDif\\.venv\\Scripts"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\Ruby32-x64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Erik\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\Erik\\Documents\\flutter\\bin\\"
+        - "C:\\Users\\Erik\\.dotnet\\tools"
+        - "C:\\Users\\Erik\\AppData\\Local\\Python\\bin"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\Erik\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\Erik\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\Erik\\AppData\\Local\\Temp\\tmp9y8r6jq0\\wheel\\platlib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/"
+      - "C:/Simulador_EcDif/.venv/Scripts/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "D:/Ruby32-x64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Erik/AppData/Roaming/npm/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/Erik/Documents/flutter/bin/"
+      - "C:/Users/Erik/.dotnet/tools/"
+      - "C:/Users/Erik/AppData/Local/Python/bin/"
+      - "D:/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:/Simulador_EcDif/.venv/Lib/site-packages"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages"
+      ENV{PATH}:
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\overlay\\Scripts"
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Scripts"
+        - "C:\\Simulador_EcDif\\.venv\\Scripts"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\Ruby32-x64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Erik\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\Erik\\Documents\\flutter\\bin\\"
+        - "C:\\Users\\Erik\\.dotnet\\tools"
+        - "C:\\Users\\Erik\\AppData\\Local\\Python\\bin"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\Erik\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\Erik\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\Erik\\AppData\\Local\\Temp\\tmp9y8r6jq0\\wheel\\platlib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/"
+      - "C:/Simulador_EcDif/.venv/Scripts/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "D:/Ruby32-x64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Erik/AppData/Roaming/npm/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/Erik/Documents/flutter/bin/"
+      - "C:/Users/Erik/.dotnet/tools/"
+      - "C:/Users/Erik/AppData/Local/Python/bin/"
+      - "D:/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/mt.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/mt.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/mt"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/mt.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/mt.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/mt"
+      - "C:/Simulador_EcDif/.venv/Scripts/mt.com"
+      - "C:/Simulador_EcDif/.venv/Scripts/mt.exe"
+      - "C:/Simulador_EcDif/.venv/Scripts/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "D:/Ruby32-x64/bin/mt.com"
+      - "D:/Ruby32-x64/bin/mt.exe"
+      - "D:/Ruby32-x64/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "D:/Program Files/nodejs/mt.com"
+      - "D:/Program Files/nodejs/mt.exe"
+      - "D:/Program Files/nodejs/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/mt"
+      - "D:/Microsoft VS Code/bin/mt.com"
+      - "D:/Microsoft VS Code/bin/mt.exe"
+      - "D:/Microsoft VS Code/bin/mt"
+      - "C:/Users/Erik/AppData/Roaming/npm/mt.com"
+      - "C:/Users/Erik/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/Erik/AppData/Roaming/npm/mt"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/mt.com"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/mt.exe"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/mt"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/mt.com"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/mt.exe"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/mt"
+      - "C:/Users/Erik/Documents/flutter/bin/mt.com"
+      - "C:/Users/Erik/Documents/flutter/bin/mt.exe"
+      - "C:/Users/Erik/Documents/flutter/bin/mt"
+      - "C:/Users/Erik/.dotnet/tools/mt.com"
+      - "C:/Users/Erik/.dotnet/tools/mt.exe"
+      - "C:/Users/Erik/.dotnet/tools/mt"
+      - "C:/Users/Erik/AppData/Local/Python/bin/mt.com"
+      - "C:/Users/Erik/AppData/Local/Python/bin/mt.exe"
+      - "C:/Users/Erik/AppData/Local/Python/bin/mt"
+      - "D:/Microsoft VS Code/bin/copilot-shim/mt.com"
+      - "D:/Microsoft VS Code/bin/copilot-shim/mt.exe"
+      - "D:/Microsoft VS Code/bin/copilot-shim/mt"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/mt"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:/Simulador_EcDif/.venv/Lib/site-packages"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages"
+      ENV{PATH}:
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\overlay\\Scripts"
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Scripts"
+        - "C:\\Simulador_EcDif\\.venv\\Scripts"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\Ruby32-x64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Erik\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\Erik\\Documents\\flutter\\bin\\"
+        - "C:\\Users\\Erik\\.dotnet\\tools"
+        - "C:\\Users\\Erik\\AppData\\Local\\Python\\bin"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\Erik\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\Erik\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\Erik\\AppData\\Local\\Temp\\tmp9y8r6jq0\\wheel\\platlib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/"
+      - "C:/Simulador_EcDif/.venv/Scripts/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "D:/Ruby32-x64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Erik/AppData/Roaming/npm/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/Erik/Documents/flutter/bin/"
+      - "C:/Users/Erik/.dotnet/tools/"
+      - "C:/Users/Erik/AppData/Local/Python/bin/"
+      - "D:/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:/Simulador_EcDif/.venv/Lib/site-packages"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages"
+      ENV{PATH}:
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\overlay\\Scripts"
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Scripts"
+        - "C:\\Simulador_EcDif\\.venv\\Scripts"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\Ruby32-x64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Erik\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\Erik\\Documents\\flutter\\bin\\"
+        - "C:\\Users\\Erik\\.dotnet\\tools"
+        - "C:\\Users\\Erik\\AppData\\Local\\Python\\bin"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\Erik\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\Erik\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\Erik\\AppData\\Local\\Temp\\tmp9y8r6jq0\\wheel\\platlib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/bin/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/sbin/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/sbin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/"
+      - "C:/Simulador_EcDif/.venv/Scripts/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "D:/Ruby32-x64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Erik/AppData/Roaming/npm/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/Erik/Documents/flutter/bin/"
+      - "C:/Users/Erik/.dotnet/tools/"
+      - "C:/Users/Erik/AppData/Local/Python/bin/"
+      - "D:/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/sbin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/sbin/"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/"
+    searched_directories:
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/bin/rc.com"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/bin/rc.exe"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/bin/rc"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/sbin/rc.com"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/sbin/rc.exe"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/sbin/rc"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/rc.com"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/rc.exe"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/rc"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/bin/rc.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/bin/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/bin/rc"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/sbin/rc.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/sbin/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/sbin/rc"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/rc.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/rc"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/rc.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/rc"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/rc.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/rc"
+      - "C:/Simulador_EcDif/.venv/Scripts/rc.com"
+      - "C:/Simulador_EcDif/.venv/Scripts/rc.exe"
+      - "C:/Simulador_EcDif/.venv/Scripts/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "D:/Ruby32-x64/bin/rc.com"
+      - "D:/Ruby32-x64/bin/rc.exe"
+      - "D:/Ruby32-x64/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "D:/Program Files/nodejs/rc.com"
+      - "D:/Program Files/nodejs/rc.exe"
+      - "D:/Program Files/nodejs/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/rc"
+      - "D:/Microsoft VS Code/bin/rc.com"
+      - "D:/Microsoft VS Code/bin/rc.exe"
+      - "D:/Microsoft VS Code/bin/rc"
+      - "C:/Users/Erik/AppData/Roaming/npm/rc.com"
+      - "C:/Users/Erik/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/Erik/AppData/Roaming/npm/rc"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/rc.com"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/rc"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/rc.com"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/rc"
+      - "C:/Users/Erik/Documents/flutter/bin/rc.com"
+      - "C:/Users/Erik/Documents/flutter/bin/rc.exe"
+      - "C:/Users/Erik/Documents/flutter/bin/rc"
+      - "C:/Users/Erik/.dotnet/tools/rc.com"
+      - "C:/Users/Erik/.dotnet/tools/rc.exe"
+      - "C:/Users/Erik/.dotnet/tools/rc"
+      - "C:/Users/Erik/AppData/Local/Python/bin/rc.com"
+      - "C:/Users/Erik/AppData/Local/Python/bin/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Python/bin/rc"
+      - "D:/Microsoft VS Code/bin/copilot-shim/rc.com"
+      - "D:/Microsoft VS Code/bin/copilot-shim/rc.exe"
+      - "D:/Microsoft VS Code/bin/copilot-shim/rc"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/rc"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/bin/rc.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/bin/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/bin/rc"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/sbin/rc.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/sbin/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/sbin/rc"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/rc.com"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/rc"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/bin/rc.com"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/bin/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/bin/rc"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/sbin/rc.com"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/sbin/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/sbin/rc"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/rc.com"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/rc.exe"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/rc"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:/Simulador_EcDif/.venv/Lib/site-packages"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages"
+      ENV{PATH}:
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\overlay\\Scripts"
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Scripts"
+        - "C:\\Simulador_EcDif\\.venv\\Scripts"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\Ruby32-x64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Erik\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\Erik\\Documents\\flutter\\bin\\"
+        - "C:\\Users\\Erik\\.dotnet\\tools"
+        - "C:\\Users\\Erik\\AppData\\Local\\Python\\bin"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\Erik\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\Erik\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data"
+        - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib"
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/sebas-azpeytia/Desktop/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-ZT3cBf"
-      binary: "/home/sebas-azpeytia/Desktop/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-ZT3cBf"
+      source: "C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-56ut6l"
+      binary: "C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-56ut6l"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
+      cached: false
       stdout: |
-        Change Dir: '/home/sebas-azpeytia/Desktop/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-ZT3cBf'
+        Change Dir: 'C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-56ut6l'
         
-        Run Build Command(s): /home/sebas-azpeytia/.cache/uv/builds-v0/.tmpfsNxHJ/bin/ninja -v cmTC_ed778
-        [1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed778.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ed778.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc9KgaT3.s
-        GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)
-        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8698f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.18+a338add32 para .NET Framework
+        Compilaci├│n iniciada a las 07/11/2026 04:04:00 p. m..
         
-        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
-        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
-        #include "..." search starts here:
-        #include <...> search starts here:
-         /usr/include/c++/13
-         /usr/include/x86_64-linux-gnu/c++/13
-         /usr/include/c++/13/backward
-         /usr/lib/gcc/x86_64-linux-gnu/13/include
-         /usr/local/include
-         /usr/include/x86_64-linux-gnu
-         /usr/include
-        End of search list.
-        Compiler executable checksum: 7896445e4990772fdae9dc0659a99266
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed778.dir/'
-         as -v --64 -o CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9KgaT3.s
-        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
-        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ed778   && :
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
-        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 
-        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed778' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ed778.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc55ZkaS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ed778 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed778' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ed778.'
+        Proyecto "C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-56ut6l\\cmTC_8698f.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-56ut6l\\Debug\\".
+          Creando directorio "cmTC_8698f.dir\\Debug\\cmTC_8698f.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_8698f.dir\\Debug\\cmTC_8698f.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_8698f.dir\\Debug\\cmTC_8698f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_8698f.dir\\Debug\\\\" /Fd"cmTC_8698f.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Lib\\site-packages\\cmake\\data\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.44.35214 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_8698f.dir\\Debug\\\\" /Fd"cmTC_8698f.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Lib\\site-packages\\cmake\\data\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-56ut6l\\Debug\\cmTC_8698f.exe" /INCREMENTAL /ILK:"cmTC_8698f.dir\\Debug\\cmTC_8698f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-56ut6l/Debug/cmTC_8698f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-56ut6l/Debug/cmTC_8698f.lib" /MACHINE:X64  /machine:x64 cmTC_8698f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8698f.vcxproj -> C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-56ut6l\\Debug\\cmTC_8698f.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_8698f.dir\\Debug\\cmTC_8698f.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_8698f.dir\\Debug\\cmTC_8698f.tlog\\cmTC_8698f.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-56ut6l\\cmTC_8698f.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:00.47
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed CXX implicit include dir info: rv=done
-        found start of include info
-        found start of implicit include info
-          add: [/usr/include/c++/13]
-          add: [/usr/include/x86_64-linux-gnu/c++/13]
-          add: [/usr/include/c++/13/backward]
-          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
-          add: [/usr/local/include]
-          add: [/usr/include/x86_64-linux-gnu]
-          add: [/usr/include]
-        end of search list found
-        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
-        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
-        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
-        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
-        collapse include dir [/usr/local/include] ==> [/usr/local/include]
-        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
-        collapse include dir [/usr/include] ==> [/usr/include]
-        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
-      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/sebas-azpeytia/Desktop/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-ZT3cBf']
-        ignore line: []
-        ignore line: [Run Build Command(s): /home/sebas-azpeytia/.cache/uv/builds-v0/.tmpfsNxHJ/bin/ninja -v cmTC_ed778]
-        ignore line: [[1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
-        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
-        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-        ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed778.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ed778.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc9KgaT3.s]
-        ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (x86_64-linux-gnu)]
-        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
-        ignore line: []
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
-        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /usr/include/c++/13]
-        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
-        ignore line: [ /usr/include/c++/13/backward]
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
-        ignore line: [ /usr/local/include]
-        ignore line: [ /usr/include/x86_64-linux-gnu]
-        ignore line: [ /usr/include]
-        ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 7896445e4990772fdae9dc0659a99266]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed778.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9KgaT3.s]
-        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
-        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ed778   && :]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
-        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
-        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
-        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-        ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04.1' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-EldibY/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) ]
-        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed778' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ed778.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc55ZkaS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ed778 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
-          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
-          arg [-plugin] ==> ignore
-          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
-          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc55ZkaS.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [--build-id] ==> ignore
-          arg [--eh-frame-hdr] ==> ignore
-          arg [-m] ==> ignore
-          arg [elf_x86_64] ==> ignore
-          arg [--hash-style=gnu] ==> ignore
-          arg [--as-needed] ==> ignore
-          arg [-dynamic-linker] ==> ignore
-          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-          arg [-pie] ==> ignore
-          arg [-znow] ==> ignore
-          arg [-zrelro] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_ed778] ==> ignore
-          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
-          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-          arg [-L/lib/../lib] ==> dir [/lib/../lib]
-          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_ed778.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-          arg [-lstdc++] ==> lib [stdc++]
-          arg [-lm] ==> lib [m]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [-lc] ==> lib [c]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
-        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-        collapse library dir [/lib/../lib] ==> [/lib]
-        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
-        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-56ut6l\\Debug\\cmTC_8698f.exe" /INCREMENTAL /ILK:"cmTC_8698f.dir\\Debug\\cmTC_8698f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-56ut6l/Debug/cmTC_8698f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-56ut6l/Debug/cmTC_8698f.lib" /MACHINE:X64  /machine:x64 cmTC_8698f.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
         implicit fwks: []
       
       
   -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35214.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/FindPython/Support.cmake:2631 (find_program)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/FindPython.cmake:749 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "c:/Simulador_EcDif/.venv/Scripts/"
+    searched_directories:
+      - "c:/Simulador_EcDif/.venv/Scripts/python3.14_d.com"
+      - "c:/Simulador_EcDif/.venv/Scripts/python3.14_d.exe"
+      - "c:/Simulador_EcDif/.venv/Scripts/python3.14_d"
+      - "c:/Simulador_EcDif/.venv/Scripts/python3_d.com"
+      - "c:/Simulador_EcDif/.venv/Scripts/python3_d.exe"
+      - "c:/Simulador_EcDif/.venv/Scripts/python3_d"
+      - "c:/Simulador_EcDif/.venv/Scripts/python_d.com"
+      - "c:/Simulador_EcDif/.venv/Scripts/python_d.exe"
+      - "c:/Simulador_EcDif/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:/Simulador_EcDif/.venv/Lib/site-packages"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages"
+      ENV{PATH}:
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\overlay\\Scripts"
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Scripts"
+        - "C:\\Simulador_EcDif\\.venv\\Scripts"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\Ruby32-x64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Erik\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\Erik\\Documents\\flutter\\bin\\"
+        - "C:\\Users\\Erik\\.dotnet\\tools"
+        - "C:\\Users\\Erik\\AppData\\Local\\Python\\bin"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\Erik\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\Erik\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data"
+        - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/FindPython/Support.cmake:3595 (find_library)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/FindPython.cmake:749 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "library"
+    variable: "_Python_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python314_d"
+    candidate_directories:
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/libs/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/"
+    searched_directories:
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/libs/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:/Simulador_EcDif/.venv/Lib/site-packages"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages"
+      ENV{PATH}:
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\overlay\\Scripts"
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Scripts"
+        - "C:\\Simulador_EcDif\\.venv\\Scripts"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\Ruby32-x64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Erik\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\Erik\\Documents\\flutter\\bin\\"
+        - "C:\\Users\\Erik\\.dotnet\\tools"
+        - "C:\\Users\\Erik\\AppData\\Local\\Python\\bin"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\Erik\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\Erik\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data"
+        - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/bin"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/FindPython/Support.cmake:1531 (find_library)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/FindPython/Support.cmake:3613 (_python_find_runtime_library)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/FindPython.cmake:749 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "library"
+    variable: "_Python_RUNTIME_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python314"
+      - "python3.14"
+    candidate_directories:
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/lib/bin/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/lib/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/bin/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/lib/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/lib/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/libs/bin/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/libs/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/bin/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Scripts/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Scripts/"
+      - "C:/Simulador_EcDif/.venv/Scripts/bin/"
+      - "C:/Simulador_EcDif/.venv/Scripts/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "D:/Ruby32-x64/bin/bin/"
+      - "D:/Ruby32-x64/bin/"
+      - "C:/Windows/System32/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/bin/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/bin/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bin/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/bin/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/bin/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/bin/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Program Files/nodejs/bin/"
+      - "D:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/bin/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/bin/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/bin/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Git/cmd/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/bin/"
+      - "C:/Users/Erik/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Erik/AppData/Roaming/npm/bin/"
+      - "C:/Users/Erik/AppData/Roaming/npm/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/bin/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/bin/"
+      - "C:/Users/Erik/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/Erik/Documents/flutter/bin/bin/"
+      - "C:/Users/Erik/Documents/flutter/bin/"
+      - "C:/Users/Erik/.dotnet/tools/bin/"
+      - "C:/Users/Erik/.dotnet/tools/"
+      - "C:/Users/Erik/AppData/Local/Python/bin/bin/"
+      - "C:/Users/Erik/AppData/Local/Python/bin/"
+      - "D:/Microsoft VS Code/bin/copilot-shim/bin/"
+      - "D:/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/bin/"
+      - "C:/Users/Erik/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bin/"
+      - "C:/Users/Erik/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Program Files/lib/bin/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/bin/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/lib/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/lib/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/lib/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/lib/"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/bin/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/bin/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/bin/"
+      - "/bin/bin/"
+      - "/bin/"
+    searched_directories:
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/lib/bin/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/lib/bin/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/lib/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/lib/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/bin/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/bin/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/"
+      - "c:/Simulador_EcDif/.venv/Lib/site-packages/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/lib/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/lib/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/lib/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/lib/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/bin/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/libs/bin/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/libs/bin/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/libs/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/libs/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/bin/"
+      - "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/bin/"
+    found: "C:/Users/Erik/AppData/Local/Python/pythoncore-3.14-64/python314.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:/Simulador_EcDif/.venv/Lib/site-packages"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages"
+      ENV{PATH}:
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\overlay\\Scripts"
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Scripts"
+        - "C:\\Simulador_EcDif\\.venv\\Scripts"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\Ruby32-x64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Erik\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\Erik\\Documents\\flutter\\bin\\"
+        - "C:\\Users\\Erik\\.dotnet\\tools"
+        - "C:\\Users\\Erik\\AppData\\Local\\Python\\bin"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\Erik\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\Erik\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data"
+        - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib/bin"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/bin"
+        - "/bin"
+  -
     kind: "try_compile-v1"
     backtrace:
-      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "/home/sebas-azpeytia/.cache/uv/builds-v0/.tmpfsNxHJ/lib/python3.14/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:338 (check_cxx_compiler_flag)"
-      - "/home/sebas-azpeytia/.cache/uv/builds-v0/.tmpfsNxHJ/lib/python3.14/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:387 (_pybind11_return_if_cxx_and_linker_flags_work)"
-      - "/home/sebas-azpeytia/.cache/uv/builds-v0/.tmpfsNxHJ/lib/python3.14/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:448 (_pybind11_generate_lto)"
-      - "/home/sebas-azpeytia/.cache/uv/builds-v0/.tmpfsNxHJ/lib/python3.14/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:338 (check_cxx_compiler_flag)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:414 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:448 (_pybind11_generate_lto)"
+      - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
       - "CMakeLists.txt:10 (find_package)"
     checks:
-      - "Performing Test HAS_FLTO_AUTO"
+      - "Performing Test HAS_MSVC_GL_LTCG"
     directories:
-      source: "/home/sebas-azpeytia/Desktop/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-iv4cDr"
-      binary: "/home/sebas-azpeytia/Desktop/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-iv4cDr"
+      source: "C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-4r5h3n"
+      binary: "C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-4r5h3n"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_POSITION_INDEPENDENT_CODE: "ON"
     buildResult:
-      variable: "HAS_FLTO_AUTO"
+      variable: "HAS_MSVC_GL_LTCG"
       cached: true
       stdout: |
-        Change Dir: '/home/sebas-azpeytia/Desktop/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-iv4cDr'
+        Change Dir: 'C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-4r5h3n'
         
-        Run Build Command(s): /home/sebas-azpeytia/.cache/uv/builds-v0/.tmpfsNxHJ/bin/ninja -v cmTC_1bd6e
-        [1/2] /usr/bin/c++ -DHAS_FLTO_AUTO  -std=c++20 -fPIE   -flto=auto -fno-fat-lto-objects -o CMakeFiles/cmTC_1bd6e.dir/src.cxx.o -c /home/sebas-azpeytia/Desktop/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-iv4cDr/src.cxx
-        [2/2] : && /usr/bin/c++   CMakeFiles/cmTC_1bd6e.dir/src.cxx.o -o cmTC_1bd6e  -flto=auto && :
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_188f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.18+a338add32 para .NET Framework
+        Compilaci├│n iniciada a las 07/11/2026 04:04:02 p. m..
+        
+        Proyecto "C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-4r5h3n\\cmTC_188f8.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-4r5h3n\\Debug\\".
+          Creando directorio "cmTC_188f8.dir\\Debug\\cmTC_188f8.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_188f8.dir\\Debug\\cmTC_188f8.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_188f8.dir\\Debug\\cmTC_188f8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_188f8.dir\\Debug\\\\" /Fd"cmTC_188f8.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-4r5h3n\\src.cxx"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.44.35214 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++20 /Fo"cmTC_188f8.dir\\Debug\\\\" /Fd"cmTC_188f8.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-4r5h3n\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-4r5h3n\\Debug\\cmTC_188f8.exe" /INCREMENTAL /ILK:"cmTC_188f8.dir\\Debug\\cmTC_188f8.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-4r5h3n/Debug/cmTC_188f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/CMakeScratch/TryCompile-4r5h3n/Debug/cmTC_188f8.lib" /MACHINE:X64  /machine:x64 cmTC_188f8.dir\\Debug\\src.obj
+        LINK : warning LNK4075: se omite '/INCREMENTAL' debido a la especificaci├│n '/LTCG' [C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-4r5h3n\\cmTC_188f8.vcxproj]
+          Generando c├│digo
+          Generaci├│n de c├│digo finalizada
+          cmTC_188f8.vcxproj -> C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-4r5h3n\\Debug\\cmTC_188f8.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_188f8.dir\\Debug\\cmTC_188f8.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_188f8.dir\\Debug\\cmTC_188f8.tlog\\cmTC_188f8.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-4r5h3n\\cmTC_188f8.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+        
+        "C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-4r5h3n\\cmTC_188f8.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : warning LNK4075: se omite '/INCREMENTAL' debido a la especificaci├│n '/LTCG' [C:\\Simulador_EcDif\\Simulador_EcDif\\CMakeFiles\\CMakeScratch\\TryCompile-4r5h3n\\cmTC_188f8.vcxproj]
+        
+            1 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:00.48
         
       exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:10 (find_package)"
+    name: "pybind11"
+    configs:
+      -
+        filename: "pybind11.cps"
+        kind: "cps"
+      -
+        filename: "pybind11Config.cmake"
+        kind: "cmake"
+      -
+        filename: "pybind11-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "pybind11"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/pkgRedirects/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/pkgRedirects/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/pkgRedirects/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Simulador_EcDif/Simulador_EcDif/CMakeFiles/pkgRedirects/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "c:/Simulador_EcDif/.venv/Lib/site-packages/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "c:/Simulador_EcDif/.venv/Lib/site-packages/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "c:/Simulador_EcDif/.venv/Lib/site-packages/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "c:/Simulador_EcDif/.venv/Lib/site-packages/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/pybind11-3.1.0.dist-info/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/pybind11-3.1.0.dist-info/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/pybind11/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/pybind11/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake"
+      mode: "config"
+      version: "3.1.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "c:/Simulador_EcDif/.venv/Lib/site-packages"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/overlay/Lib/site-packages"
+      ENV{PATH}:
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\overlay\\Scripts"
+        - "C:\\Users\\Erik\\AppData\\Local\\Temp\\pip-build-env-xhib0y8b\\normal\\Scripts"
+        - "C:\\Simulador_EcDif\\.venv\\Scripts"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "D:\\Ruby32-x64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Erik\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk"
+        - "C:\\Users\\Erik\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\Erik\\Documents\\flutter\\bin\\"
+        - "C:\\Users\\Erik\\.dotnet\\tools"
+        - "C:\\Users\\Erik\\AppData\\Local\\Python\\bin"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+        - "c:\\Users\\Erik\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\Erik\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "D:\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/Erik/AppData/Local/Temp/pip-build-env-xhib0y8b/normal/Lib/site-packages/cmake/data"
+        - "C:/Users/Erik/AppData/Local/Temp/tmp9y8r6jq0/wheel/platlib"
 ...

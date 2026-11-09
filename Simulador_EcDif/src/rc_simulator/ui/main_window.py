@@ -43,16 +43,21 @@ class MainWindow(QMainWindow):
         central = QWidget()
         self.setCentralWidget(central)
 
+        # --- Acomodo principal ---
         root_layout = QHBoxLayout(central)
         root_layout.setContentsMargins(0, 0, 0, 0)
         root_layout.setSpacing(0)
+        
+        from PySide6.QtWidgets import QSplitter
+        main_splitter = QSplitter(Qt.Orientation.Horizontal)
+        root_layout.addWidget(main_splitter)
 
-        # ---------------------------------------------------------------------
-        # Menú Lateral Izquierdo Simplificado (415 px)
-        # ---------------------------------------------------------------------
+        # --------------------------------------------------------
+        # Menú Lateral LADO DERECHO: Presets + Sliders + Métricas
+        # --------------------------------------------------------
         sidebar_container = QFrame()
         sidebar_container.setObjectName("SidebarFrame")
-        sidebar_container.setFixedWidth(415)
+        sidebar_container.setMinimumWidth(350) # Permitimos que se encoja un poco
 
         sidebar_outer_layout = QVBoxLayout(sidebar_container)
         sidebar_outer_layout.setContentsMargins(0, 0, 0, 0)
@@ -77,9 +82,9 @@ class MainWindow(QMainWindow):
         scroll_area.setWidget(sidebar_content)
         sidebar_outer_layout.addWidget(scroll_area)
 
-        # ---------------------------------------------------------------------
-        # Área Principal Derecha: Circuito Animado (Arriba) + Gráficas (Abajo)
-        # ---------------------------------------------------------------------
+        # --------------------------------------------
+        # Área Principal: Circuito Animado + Gráficas 
+        # --------------------------------------------
         right_panel = QWidget()
         right_layout = QVBoxLayout(right_panel)
         right_layout.setContentsMargins(14, 14, 14, 14)
@@ -88,7 +93,8 @@ class MainWindow(QMainWindow):
         self.circuit_panel = CircuitAnimationPanel()
         self.plots_dashboard = PlotsDashboard()
 
-        # Sincronización bidireccional de tiempo entre animación y gráficas
+
+
         self.circuit_panel.timeIndexChanged.connect(self.plots_dashboard.set_time_index)
         self.plots_dashboard.userScrubbedIndex.connect(
             lambda idx: self.circuit_panel.set_time_index(idx, emit_signal=False)
@@ -97,10 +103,13 @@ class MainWindow(QMainWindow):
         right_layout.addWidget(self.circuit_panel, stretch=4)
         right_layout.addWidget(self.plots_dashboard, stretch=6)
 
-        root_layout.addWidget(sidebar_container)
-        root_layout.addWidget(right_panel, stretch=1)
+        main_splitter.addWidget(right_panel)
+        main_splitter.addWidget(sidebar_container)
+        main_splitter.setSizes([1050, 450]) 
 
-        # Cargar escenario inicial (Caso Base AF6)
+# Conecta los botones de Sencillo/Avanzado a lanueva función
+        self.circuit_panel.modeChanged.connect(self.change_ui_mode)
+
         self.apply_preset(PRESETS["af6_base"])
 
     def _build_header_banner(self) -> QFrame:
@@ -113,21 +122,21 @@ class MainWindow(QMainWindow):
         title = QLabel("SIMULADOR DE CIRCUITO RC EN SERIE")
         title.setObjectName("AppTitle")
 
-        eq_label = QLabel("R * (dq/dt) + (1/C) * q = E_0 * cos(omega * t)")
-        eq_label.setObjectName("AppSubtitle")
+        self.eq_label = QLabel("R * (dq/dt) + (1/C) * q = E_0 * cos(omega * t)")
+        self.eq_label.setObjectName("AppSubtitle")
 
-        desc = QLabel("Condición inicial: q(0) = q_0")
-        desc.setObjectName("MetricSubtext")
+        self.desc_label = QLabel("Condición inicial: q(0) = q_0")
+        self.desc_label.setObjectName("MetricSubtext")
 
         layout.addWidget(title)
-        layout.addWidget(eq_label)
-        layout.addWidget(desc)
+        layout.addWidget(self.eq_label)
+        layout.addWidget(self.desc_label)
         return banner
 
     def _build_presets_card(self) -> QFrame:
-        card = QFrame()
-        card.setObjectName("SectionCard")
-        layout = QVBoxLayout(card)
+        self.presets_card = QFrame()
+        self.presets_card.setObjectName("SectionCard")
+        layout = QVBoxLayout(self.presets_card)
         layout.setContentsMargins(12, 10, 12, 10)
         layout.setSpacing(8)
 
@@ -160,9 +169,24 @@ class MainWindow(QMainWindow):
         self.preset_desc_label.setObjectName("PresetInfoText")
         self.preset_desc_label.setWordWrap(True)
         info_layout.addWidget(self.preset_desc_label)
-
         layout.addWidget(info_box)
-        return card
+        return self.presets_card   
+    
+# --- NUEVA FUNCIÓN QUE OCULTA/MUESTRA LAS COSAS ---
+    def change_ui_mode(self, mode: str) -> None:
+        is_advanced = (mode == "avanzado")
+        self.plots_dashboard.setVisible(is_advanced)
+
+        # Ocultar Fórmulas Matemáticas
+        self.eq_label.setVisible(is_advanced)
+        self.desc_label.setVisible(is_advanced)
+
+        # Ocultar Caja de Escenarios (Presets)
+        self.presets_card.setVisible(is_advanced)
+
+        # Ocultar Variables Complejas (Dejamos solo Resistencia, Capacitancia y Voltaje)
+        self.slider_omega.setVisible(is_advanced)
+        self.slider_q0.setVisible(is_advanced)
 
     def _build_parameters_card(self) -> QFrame:
         card = QFrame()
@@ -176,63 +200,27 @@ class MainWindow(QMainWindow):
         layout.addWidget(sec_title)
 
         self.slider_R = ParameterSlider(
-            label_text="Resistencia (R)",
-            unit="Ohm",
-            min_val=1.0,
-            max_val=1000.0,
-            default_val=50.0,
-            decimals=1,
-            step=5.0,
-            tooltip="Resistencia eléctrica en serie R [1 Ohm a 1000 Ohm]",
+            label_text="Resistencia (R)", unit="Ohm",
+            min_val=1.0, max_val=1000.0, default_val=50.0, decimals=1, step=5.0
         )
         self.slider_C = ParameterSlider(
-            label_text="Capacitancia (C)",
-            unit="mF",
-            min_val=0.1,
-            max_val=50.0,
-            default_val=10.0,
-            decimals=1,
-            step=0.5,
-            tooltip="Capacitancia C en milifaradios (10 mF = 0.01 F)",
+            label_text="Capacitancia (C)", unit="mF",
+            min_val=0.1, max_val=50.0, default_val=10.0, decimals=1, step=0.5
         )
         self.slider_E0 = ParameterSlider(
-            label_text="Voltaje de la Fuente (E_0)",
-            unit="V",
-            min_val=0.0,
-            max_val=500.0,
-            default_val=200.0,
-            decimals=0,
-            step=10.0,
-            tooltip="Amplitud pico de la fuente sinusoidal E_0 [0 V a 500 V]",
+            label_text="Voltaje de la Fuente (E_0)", unit="V",
+            min_val=0.0, max_val=500.0, default_val=200.0, decimals=0, step=10.0
         )
         self.slider_omega = ParameterSlider(
-            label_text="Frecuencia Angular (omega)",
-            unit="rad/s",
-            min_val=0.5,
-            max_val=50.0,
-            default_val=2.0,
-            decimals=1,
-            step=0.5,
-            tooltip="Frecuencia angular de la fuente omega [0.5 rad/s a 50 rad/s]",
+            label_text="Frecuencia Angular (omega)", unit="rad/s",
+            min_val=0.5, max_val=50.0, default_val=2.0, decimals=1, step=0.5
         )
         self.slider_q0 = ParameterSlider(
-            label_text="Carga Inicial (q_0)",
-            unit="C",
-            min_val=-1.0,
-            max_val=1.0,
-            default_val=0.0,
-            decimals=2,
-            step=0.05,
-            tooltip="Carga inicial almacenada en el capacitor q(0) [-1 C a 1 C]",
+            label_text="Carga Inicial (q_0)", unit="C",
+            min_val=-1.0, max_val=1.0, default_val=0.0, decimals=2, step=0.05
         )
 
-        for w in (
-            self.slider_R,
-            self.slider_C,
-            self.slider_E0,
-            self.slider_omega,
-            self.slider_q0,
-        ):
+        for w in (self.slider_R, self.slider_C, self.slider_E0, self.slider_omega, self.slider_q0):
             layout.addWidget(w)
             w.valueChanged.connect(self._on_user_parameter_changed)
 
@@ -254,7 +242,7 @@ class MainWindow(QMainWindow):
             self.slider_E0.set_value(preset.E0_volt, emit_signal=False)
             self.slider_omega.set_value(preset.omega_rad_s, emit_signal=False)
             self.slider_q0.set_value(preset.q0_coulomb, emit_signal=False)
-
+            
             self.preset_desc_label.setText(f"{preset.title}: {preset.description}")
             self._highlight_preset_button(preset.key)
         finally:

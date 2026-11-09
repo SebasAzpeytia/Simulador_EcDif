@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Simulador_EcDif\Simulador_EcDif\cpp\src\rc_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Simulador_EcDif\Simulador_EcDif\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D9E6A43A-B018-34D7-8C4F-6F98DDF9A830}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
